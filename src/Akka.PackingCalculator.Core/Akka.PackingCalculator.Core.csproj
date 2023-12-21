@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Akka" Version="1.5.*" />
+    <PackageReference Include="Akka.HealthCheck.Hosting" Version="1.5.*" />
+    <PackageReference Include="Akka.HealthCheck.Cluster" Version="1.5.*" />
+    <PackageReference Include="Akka.Cluster.Sharding" Version="1.5.*" />
+    <PackageReference Include="Akka.Cluster.Hosting" Version="1.5.*" />
+    <PackageReference Include="Akka.Cluster" Version="1.5.*" />
+    <PackageReference Include="Akka.Persistence.Sql.Hosting" Version="1.5.*" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="5.0.*" />
+    <PackageReference Include="MongoDB.Driver" Version="2.23.0" />
+ </ItemGroup>
+
+</Project>

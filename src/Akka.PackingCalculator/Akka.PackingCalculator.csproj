@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Akka" Version="1.5.*" />
+    <PackageReference Include="Akka.Quartz.Actor" Version="1.5.*" />
+    <PackageReference Include="Akka.HealthCheck.Hosting" Version="1.5.*" />
+    <PackageReference Include="Akka.HealthCheck.Cluster" Version="1.5.*" />
+    <PackageReference Include="Akka.HealthCheck.Hosting.Web" Version="1.5.*" />
+    <PackageReference Include="Akka.HealthCheck" Version="1.5.*" />
+    <PackageReference Include="Akka.Cluster.Sharding" Version="1.5.*" />
+    <PackageReference Include="Akka.Cluster.Hosting" Version="1.5.*" />
+    <PackageReference Include="Akka.Cluster" Version="1.5.*" />
+    <PackageReference Include="Akka.DependencyInjection" Version="1.5.*" />
+    <PackageReference Include="Akka.Hosting" Version="1.5.*" />
+    <PackageReference Include="Akka.Logger.Extensions.Logging" Version="1.4.22" />
+    <PackageReference Include="Akka.Logger.Serilog" Version="1.5.*" />
+    <PackageReference Include="Akka.Persistence.Hosting" Version="1.5.*" />
+    <PackageReference Include="Akka.Persistence.Sql.Hosting" Version="1.5.*" />
+    <PackageReference Include="Serilog.AspNetCore" Version="*" />
+    <PackageReference Include="Npgsql" Version="7.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Akka.PackingCalculator.Core\Akka.PackingCalculator.Core.csproj" />
+  </ItemGroup>
+
+</Project>
